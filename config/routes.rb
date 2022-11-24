@@ -5,6 +5,12 @@ Rails.application.routes.draw do
   # root "articles#index"
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
+      resources :users, only: [:create, :show ] do
+        collection do
+          post 'confirm'
+          post 'login'
+        end
+      end
       resources :products, only: [:index]
   
     end
