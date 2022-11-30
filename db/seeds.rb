@@ -12,63 +12,63 @@ Product.create!([{
     price: 200,
     imgUrl: "/imgs/pineaples.png",
     productQuant: "5 pcs",
-    category": "Fruits"
+    category: "Fruits"
 },
 {
     name: "Avocados",
     price: 50,
     imgUrl: "/imgs/avocados.png",
     productQuant: "5 pcs",
-    category": "Fruits"
+    category: "Fruits"
 },
 {
     name: "Sweet potatoes",
     price: 100,
     imgUrl: "/imgs/potatoes.png",
     productQuant: "1 Kg",
-    category": "Vegetables"
+    category: "Vegetables"
 },
 {
     name: "Bananas",
     price: 50,
     imgUrl: "/imgs/bananas.png",
     productQuant: "1 Kg",
-    category": "Fruits"
+    category: "Fruits"
 },
 {
     name: "Broccoli",
     price: 100,
     imgUrl: "/imgs/broccoli.png",
     productQuant: "1 Kg",
-    category": "Vegetables"
+    category: "Vegetables"
 },
 {
     name: "Spinach",
     price: 100,
     imgUrl: "/imgs/spinach.png",
     productQuant: "1 Kg",
-    category": "Vegetables"
+    category: "Vegetables"
 },
 {
     name: "Carrots",
     price: 100,
     imgUrl: "/imgs/carrots.png",
     productQuant: "1 Kg",
-    category": "Vegetables"
+    category: "Vegetables"
 },
 {
     name: "Milk",
     price: 70,
     imgUrl: "/imgs/milk.png",
     productQuant: "1 Litre",
-    category": "Dairy"
+    category: "Dairy"
 },
 {
     name: "Cabbage",
     price: 50,
     imgUrl: "/imgs/cabbage.png",
     productQuant: "1 Litre",
-    category": "Vegetables"
+    category: "Vegetables"
 },
 
 
