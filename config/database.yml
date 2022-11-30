@@ -79,8 +79,14 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
+
 production:
   <<: *default
-  database: sokoni_backend_production
-  username: sokoni_backend
-  password: <%= ENV["SOKONI_BACKEND_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
+
+
+# production:
+#   <<: *default
+#   database: sokoni_backend_production
+#   username: sokoni_backend
+#   password: <%= ENV["SOKONI_BACKEND_DATABASE_PASSWORD"] %>
